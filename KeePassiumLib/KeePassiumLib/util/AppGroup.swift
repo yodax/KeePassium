@@ -11,9 +11,9 @@ import Foundation
 public class AppGroup {
     public static var id: String = {
         if BusinessModel.isIntuneEdition {
-            return "group.com.keepassium.intune"
+            return "group.com.keepassium-mk.intune"
         } else {
-            return "group.com.keepassium"
+            return "group.com.keepassium-mk"
         }
     }()
 
@@ -23,9 +23,9 @@ public class AppGroup {
         }
         switch BusinessModel.type {
         case .freemium:
-            return "keepassium"
+            return "keepassium-mk"
         case .prepaid:
-            return "keepassium.pro"
+            return "keepassium-mk.pro"
         }
     }()
 

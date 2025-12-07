@@ -23,23 +23,23 @@ public enum InAppProduct: String, Codable {
 
     static let allForever = [.forever, forever2]
 
-    case betaForever = "com.keepassium.ios.iap.beta.forever"
+    case betaForever = "com.keepassium-mk.ios.iap.beta.forever"
 
-    case forever = "com.keepassium.ios.iap.forever"
-    case forever2 = "com.keepassium.ios.iap.forever.2"
-    case montlySubscription = "com.keepassium.ios.iap.subscription.1month"
-    case yearlySubscription = "com.keepassium.ios.iap.subscription.1year"
-    case version88 = "com.keepassium.ios.iap.version.88"
-    case version96 = "com.keepassium.ios.iap.version.96"
-    case version99 = "com.keepassium.ios.iap.version.99"
-    case version120 = "com.keepassium.ios.iap.version.120"
-    case version139 = "com.keepassium.ios.iap.version.139"
-    case version154 = "com.keepassium.ios.iap.version.154"
-    case version166 = "com.keepassium.ios.iap.version.166"
+    case forever = "com.keepassium-mk.ios.iap.forever"
+    case forever2 = "com.keepassium-mk.ios.iap.forever.2"
+    case montlySubscription = "com.keepassium-mk.ios.iap.subscription.1month"
+    case yearlySubscription = "com.keepassium-mk.ios.iap.subscription.1year"
+    case version88 = "com.keepassium-mk.ios.iap.version.88"
+    case version96 = "com.keepassium-mk.ios.iap.version.96"
+    case version99 = "com.keepassium-mk.ios.iap.version.99"
+    case version120 = "com.keepassium-mk.ios.iap.version.120"
+    case version139 = "com.keepassium-mk.ios.iap.version.139"
+    case version154 = "com.keepassium-mk.ios.iap.version.154"
+    case version166 = "com.keepassium-mk.ios.iap.version.166"
 
-    case donationSmall = "com.keepassium.ios.donation.small"
-    case donationMedium = "com.keepassium.ios.donation.medium"
-    case donationLarge = "com.keepassium.ios.donation.large"
+    case donationSmall = "com.keepassium-mk.ios.donation.small"
+    case donationMedium = "com.keepassium-mk.ios.donation.medium"
+    case donationLarge = "com.keepassium-mk.ios.donation.large"
 
     public var period: Period {
         return InAppProduct.period(productIdentifier: self.rawValue)

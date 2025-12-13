@@ -30,7 +30,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.keepassium</string>
+		<string>group.com.keepassium-mk</string>
 	</array>
 	<key>com.apple.security.network.client</key>
 	<true/>
